@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="browsertest" value="ChromeXYZ"></parameter>>
+    <classes>
+      <class name="com.nikhil.MavenOne.Tracko"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test1">
+  <parameter name="browsertest" value="firefox"></parameter>>
+    <classes>
+      <class name="com.nikhil.MavenOne.Tracko"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test2">
+  <parameter name="browsertest" value="IE"></parameter>>
+    <classes>
+      <class name="com.nikhil.MavenOne.Tracko"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
