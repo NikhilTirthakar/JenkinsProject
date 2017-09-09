@@ -19,8 +19,8 @@ public class SignUp
 	  
 	  
 	  // driver.findElement(By.xpath("//*[@id='navbar-collapse']/ul/li[6]/a")).click();
-	    driver.findElement(By.id("name")).sendKeys("Nikhil");
-		driver.findElement(By.id("email")).sendKeys("alliswell@tracko.com");
+	    driver.findElement(By.id("name")).sendKeys("NikhilTirthakar");
+		driver.findElement(By.id("email")).sendKeys("nikki@tracko.com");
 		driver.findElement(By.id("mobile")).sendKeys("4444444443");
 		driver.findElement(By.id("sub_btn_signup")).click();
 		Thread.sleep(5000);
@@ -32,6 +32,7 @@ public class SignUp
 		driver.findElement(By.id("password")).sendKeys("niki@12345");
 		driver.findElement(By.id("repassword")).sendKeys("niki@12345");
 		driver.findElement(By.id("sub_btn_setpass")).click();	
+		Thread.sleep(2000);
 	}
 
 }
